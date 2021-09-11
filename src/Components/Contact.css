@@ -1,0 +1,46 @@
+.contact {
+  color: var(--color-primary);
+  margin-top: 10vw;
+  width: 100vw;
+}
+
+.typing {
+  font-family: var(--font-primary);
+  font-size: 3vw;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  animation-iteration-count: infinite;
+  animation-name: typing;
+  animation-timing-function: linear;
+  animation-duration: 8s;
+  animation-delay: 5s;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.anchorsContact {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10vw 5vw;
+        
+}
+
+.anchorContact {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 5vw;
+  font-family: var(--font-primary);
+}
+
+.anchorContact:hover {
+  font-size: 5.5vw;
+}

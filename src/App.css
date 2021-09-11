@@ -1,0 +1,19 @@
+:root {
+    --color-one: #20C494;
+    --color-two: rgb(214, 97, 179);
+    --color-three: rgb(98, 194, 211);
+    --color-primary: beige;
+    --color-secondary: black;
+    --font-primary: 'Indie Flower', cursive;
+    --font-secondary: 'Raleway', sans-serif;
+    --font-tertiary:'Shadows Into Light', cursive;
+}
+
+body {
+    background-color: var(--color-secondary);
+    height: 110vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+

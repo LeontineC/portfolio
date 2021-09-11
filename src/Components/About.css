@@ -1,0 +1,27 @@
+.containerAbout {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw 20vw;
+    letter-spacing: .2vw;
+    word-spacing: .2vw;
+}
+
+.textAbout {
+    /* font-family: var(--font-secondary); */
+    margin-bottom: 5vw;
+}
+
+.photoAbout {
+    width: 15vw;
+    border-radius: 50%;
+    border: var(--color-primary) solid 2px;
+}

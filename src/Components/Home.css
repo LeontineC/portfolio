@@ -1,0 +1,60 @@
+.animation::before {
+  content: "webdeveloper";
+  position: absolute;
+  color: var(--color-primary);
+  display: inline-block;
+  font-size: 7vw;
+  left: 30%;
+  font-family: var(--font-primary);
+}
+
+.animation {
+  position: relative;
+  border: solid var(--color-primary) 10px;
+  width: 90vw;
+  height: 80vh;
+  margin: 0 auto;
+  top: 1em;
+
+  background-repeat: repeat-x, repeat-x, repeat-x, repeat-x, no-repeat;
+
+  background-image: url("./images/image1.png"), url("./images/image2.png"),
+    url("./images/image3.png"), url("./images/image4.png"),
+    url("./images/image5.jpg");
+
+  background-size: 200%, 110%, 120%, 150%, cover;
+  background-position: 70%, -100%, 10%, 100%, 100%;
+
+  animation-name: animation;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@media (max-width: 330px) {
+  .animation {
+    background-size: 1000%, 110%, 600%, 150%, cover;
+  }
+}
+
+@media (max-width: 640px) {
+  .animation {
+    margin-top: 0;
+    background-size: 800%, 110%, 300%, 150%, cover;
+    animation-duration: 60s;
+  }
+}
+@media (max-width: 1400px) {
+  .animation {
+    background-size: 500%, 110%, 300%, 150%, cover;
+  }
+}
+
+@keyframes animation {
+  from {
+    background-position: 70%, -100%, 10%, 100%, 100%;
+  }
+  to {
+    background-position: 100%, 300%, -100%, -200%, 100%;
+  }
+} ;
