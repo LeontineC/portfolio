@@ -12,9 +12,10 @@ const NavBar = () => {
 
         <ul className="navLinks">
           <li className="navItem">
-            <Link to="/" className="navLink">
-              Home
-            </Link>
+            {/* <Link to="/" className="navLink"> */}
+              {/* Home */}
+            {/* </Link> */}
+            <Link to='/https://github.com/LeontineC/LeontineC-portfolio.git ' className='navLink'>Home</Link>
           </li>
           <li className="navItem">
             <Link to="/about" className="navLink">

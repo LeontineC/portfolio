@@ -16,7 +16,8 @@ const App = () => {
         <div className='app'>
           <NavBar />
           <Switch>
-            <Route exact path='/' component={Home}></Route>
+            {/* <Route exact path='/' component={Home}></Route> */}
+            <Route exact path='/https://github.com/LeontineC/LeontineC-portfolio.git '></Route>
             <Route exact path='/about' component={About}></Route>
             <Route exact path='/contact' component={Contact}></Route>
             <Route exact path='/particles' component={Particles}></Route>
