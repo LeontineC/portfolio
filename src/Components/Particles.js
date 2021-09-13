@@ -5,7 +5,7 @@ const Particles = () => {
   return (
     <>
       <div className="particles">
-        <h1>Why?</h1>
+        <h3>Why?</h3>
         <span></span>
         <span></span>
         <span></span>
