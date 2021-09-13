@@ -1,4 +1,4 @@
-.containerParticles {
+.particles {
     animation: color 5s linear infinite;
     /* background-image: url('https://images.unsplash.com/photo-1597839219216-a773cb2473e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'); */
     background: url('./images/darkforest.jpg');
@@ -10,15 +10,17 @@
     margin: 2vw 0 auto 0;
     }
 
+    /*
+
 @keyframes color {
     100% { filter:  hue-rotate(360deg);}
 } 
 
-.containerParticles span {
+.particles span {
         position: absolute;
         }
 
-.containerParticles span:nth-child(1) {
+.particles span:nth-child(1) {
     top: 5em;
     left: -6em;
     bottom: 20em;
@@ -26,7 +28,7 @@
     animation: one 8s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
     }
 
-.containerParticles span:nth-child(4) {
+.particles span:nth-child(4) {
         top: -6em;
         left: 22em;
         bottom: 6em;
@@ -34,7 +36,7 @@
         animation: one 8s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
         }
 
-.containerParticles span:nth-child(7) {
+.particles span:nth-child(7) {
     top: -12em;
     left: -40em;
     bottom: 2em;
@@ -47,7 +49,7 @@
     100% {transform: rotate(360deg);}
 }
 
-.containerParticles span:nth-child(2) {
+.particles span:nth-child(2) {
     top: -15em;
     left: -24em;
     bottom: -1em;
@@ -55,7 +57,7 @@
     animation: two 7s infinite reverse cubic-bezier(.43,.87,.86,.33);
     }
 
-.containerParticles span:nth-child(5) {
+.particles span:nth-child(5) {
         top: -20em;
         left: 6em;
         bottom: 17em;
@@ -63,7 +65,7 @@
         animation: two 7s infinite reverse cubic-bezier(.43,.87,.86,.33);
         }
 
-.containerParticles span:nth-child(8) {
+.particles span:nth-child(8) {
             top: -12em;
             left: 40em;
             bottom: -1em;
@@ -78,7 +80,7 @@
 
 
 
-.containerParticles span:nth-child(3) {
+.particles span:nth-child(3) {
     top: -25em;
     left: -20em;
     bottom: 8em;
@@ -86,7 +88,7 @@
     animation: three 9s infinite reverse cubic-bezier(0.785, 0.135, 0.15, 0.86);
     } 
 
-.containerParticles span:nth-child(6) {
+.particles span:nth-child(6) {
         top: -15em;
         left: 30em;
         bottom: 5em;
@@ -94,7 +96,7 @@
         animation: three 9s infinite reverse cubic-bezier(0.785, 0.135, 0.15, 0.86);
         }
 
-.containerParticles span:nth-child(9) {
+.particles span:nth-child(9) {
             top: -11em;
             left: -3em;
             bottom: 14em;
@@ -108,7 +110,7 @@
     
 }
 
-.containerParticles span:before {
+.particles span:before {
     content: '';
     position: absolute;
     width: .2em;
@@ -119,7 +121,7 @@
     left: 50vw;
 } 
 
-.containerParticles  span:nth-child(1):before,
+.particles  span:nth-child(1):before,
             span:nth-child(4):before,
             span:nth-child(7):before
             {
@@ -130,7 +132,7 @@
                 0 0 90px var(--color-one);
 }
 
-.containerParticles  span:nth-child(2):before,
+.particles  span:nth-child(2):before,
             span:nth-child(5):before,
             span:nth-child(8):before  
             {
@@ -141,7 +143,7 @@
                 0 0 90px var(--color-two);
 }
 
-.containerParticles  span:nth-child(3):before,
+.particles  span:nth-child(3):before,
             span:nth-child(6):before,
             span:nth-child(9):before
             {
@@ -151,3 +153,4 @@
                 0 0 15px var(--color-three),
                 0 0 90px var(--color-three);
 }
+*/

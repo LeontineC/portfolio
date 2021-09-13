@@ -6,7 +6,7 @@ const Particles = () => {
     return (
         <>
            
-             <div class="containerParticles">
+             <div class="particles">
         <span ></span>
         <span ></span>
         <span ></span>
