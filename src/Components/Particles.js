@@ -1,11 +1,12 @@
 import React from 'react'
 import './Particles.css'
 
+
 const Particles = () => {
     return (
         <>
            
-             <div class="container">
+             <div class="containerParticles">
         <span ></span>
         <span ></span>
         <span ></span>
