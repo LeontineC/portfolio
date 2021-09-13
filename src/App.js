@@ -12,7 +12,7 @@ import Footer from './Components/Footer'
 const App = () => {
   return (
     <>
-      <HashRouter basename="/https://github.com/LeontineC/portfolio.git">
+      <HashRouter basename="/">
         <div className='app'>
           <NavBar />
           <Switch>
