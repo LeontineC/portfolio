@@ -6,8 +6,8 @@ import forest from './images/darkforest.jpg'
 const Particles = () => {
     return (
         <>
-           <p>particles</p>
-             <div class='particles' styles={{backgroundImage:`url(${forest})`}}>
+           
+             <div className='particles' styles={{backgroundImage:`url(${forest})`}}>
         <span ></span>
         <span ></span>
         <span ></span>
