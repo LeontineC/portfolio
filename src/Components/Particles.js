@@ -1,12 +1,13 @@
 import React from 'react'
 import './Particles.css'
+import forest from './images/darkforest.jpg'
 
 
 const Particles = () => {
     return (
         <>
            
-             <div class="particles" style={{backgroundImage: `url('./images/darkforest.jpg')`}}>
+             <div class='particles' styles={{backgroundImage:`url(${forest})`}}>
         <span ></span>
         <span ></span>
         <span ></span>
