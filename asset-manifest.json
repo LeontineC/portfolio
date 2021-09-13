@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/LeontineC/portfolio.git/static/css/main.452e070a.chunk.css",
+    "main.js": "/LeontineC/portfolio.git/static/js/main.b5d5ff0b.chunk.js",
+    "main.js.map": "/LeontineC/portfolio.git/static/js/main.b5d5ff0b.chunk.js.map",
+    "runtime-main.js": "/LeontineC/portfolio.git/static/js/runtime-main.a3e63ac0.js",
+    "runtime-main.js.map": "/LeontineC/portfolio.git/static/js/runtime-main.a3e63ac0.js.map",
+    "static/js/2.8df71d2d.chunk.js": "/LeontineC/portfolio.git/static/js/2.8df71d2d.chunk.js",
+    "static/js/2.8df71d2d.chunk.js.map": "/LeontineC/portfolio.git/static/js/2.8df71d2d.chunk.js.map",
+    "index.html": "/LeontineC/portfolio.git/index.html",
+    "static/css/main.452e070a.chunk.css.map": "/LeontineC/portfolio.git/static/css/main.452e070a.chunk.css.map",
+    "static/js/2.8df71d2d.chunk.js.LICENSE.txt": "/LeontineC/portfolio.git/static/js/2.8df71d2d.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/LeontineC/portfolio.git/static/media/image5.436b0904.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3e63ac0.js",
+    "static/js/2.8df71d2d.chunk.js",
+    "static/css/main.452e070a.chunk.css",
+    "static/js/main.b5d5ff0b.chunk.js"
+  ]
+}
