@@ -26,11 +26,11 @@ const NavBar = () => {
               Get in Touch
             </Link>
           </li>
-          <li className="navItem">
-            <Link to="/particles" className="navLink">
-              Particles
-            </Link>
-          </li>
+          {/* <li className="navItem"> */}
+            {/* <Link to="/particles" className="navLink"> */}
+              {/* Particles */}
+            {/* </Link> */}
+          {/* </li> */}
           <li className="navItem">
             <Link to="/neon" className="navLink">
               Neon
@@ -41,6 +41,13 @@ const NavBar = () => {
               href="https://leontinec.github.io/weather-app/"
               className="navLink">
               Weather
+            </a>
+          </li>
+          <li className="navItem">
+            <a
+              href="https://leontinec.github.io/webshop/"
+              className="navLink">
+              Webshop
             </a>
           </li>
         </ul>
