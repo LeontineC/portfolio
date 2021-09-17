@@ -7,8 +7,8 @@ import About from "./Components/About"
 import Contact from "./Components/Contact"
 import Home from './Components/Home'
 // import Particles from './Components/Particles'
-import Neon from './Components/Neon'
-// import Footer from './Components/Footer'
+// import Neon from './Components/Neon'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -23,10 +23,10 @@ const App = () => {
             <Route exact path='/about' component={About}></Route>
             <Route exact path='/contact' component={Contact}></Route>
             {/* <Route exact path='/particles' component={Particles}></Route> */}
-            <Route exact path='/neon' component={Neon}></Route>
+            {/* <Route exact path='/neon' component={Neon}></Route> */}
 
           </Switch>
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </HashRouter>
       {/* </Router> */}
