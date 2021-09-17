@@ -36,11 +36,11 @@ const NavBar = () => {
               {/* Particles */}
             {/* </Link> */}
           {/* </li> */}
-          <li className="navItem">
-            <Link to="/neon" className="navLink" onClick={handleClick}>
-              Neon
-            </Link>
-          </li>
+          {/* <li className="navItem"> */}
+            {/* <Link to="/neon" className="navLink" onClick={handleClick}> */}
+              {/* Neon */}
+            {/* </Link> */}
+          {/* </li> */}
           <li className="navItem">
             <a
               href="https://leontinec.github.io/weather-app/"
