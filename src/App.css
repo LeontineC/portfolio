@@ -11,7 +11,9 @@
 
 body {
     background-color: var(--color-secondary);
-    height: 200vh;
+    min-height: 100%;
+    height: auto;
+    overflow-y: visible;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
