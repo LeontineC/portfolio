@@ -2,7 +2,7 @@
   text-align: center;
   font-family: var(--font-tertiary);
   max-height: 100%;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 
 h1 {
@@ -57,7 +57,10 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .containerNeon {
-    max-height: 50%;
+    max-height: 60%;
     margin-top: 50%;
+  }
+  .fantastic {
+    margin-bottom: 100px;
   }
 }
