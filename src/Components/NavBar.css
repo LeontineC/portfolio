@@ -1,60 +1,98 @@
 .navBar {
-    font-family: var(--font-primary);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: var(--color-primary);
-    height: 4em;
-    width: 100%;
-    padding-top: 1vw;
+  font-family: var(--font-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--color-primary);
+  height: 4em;
+  width: 100%;
+  padding-top: 1vw;
 }
 
 .logoNav {
-    width: 4vw;
-    border-radius: 50%;
+  width: 4vw;
+  border-radius: 50%;
 }
 
 .navLinks {
-    height: 100%;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navLinks #hidden {
+  display: flex;
 }
 
 .navLink {
-    text-decoration: none;
-    color: var(--color-primary);
-    font-size: 1.5vw;
-    border: var(--color-primary) solid 1px;
-    box-sizing: border-box;
-    border-radius: 50%;
-    padding: .5em;
-    transition-timing-function: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
-    
+  text-decoration: none;
+  color: var(--color-primary);
+  font-size: 1.5vw;
+  height: 100%;
+  border: var(--color-primary) solid 1px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding: 0.5em;
+  transition-timing-function: 1s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 .navLink:hover {
-    background-color: var(--color-primary);
-    color: var(--color-secondary);
-    
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
+.navBar button {
+  display: none;
+  outline: none;
+}
 
+@media only screen and (max-width: 900px) {
+  .logoNav {
+    width: 10%;
+  }
+  .navBar {
+    height: 8em;
+  }
+  .navLink {
+    font-size: 3vw;
+  }
+}
 
-@media only screen and (max-width: 500px) {
-    .logoNav {
-        width: 10%;
-    }
-
-    .navLinks {
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 50%;
-        transition: .5s all;
-        
-    }
-
+@media only screen and (max-width: 600px) {
+  .navBar button {
+    display: flex;
+    font-size: 5vw;
+    z-index: 2;
+    border-radius: 50%;
+    background-color: beige;
+  }
+  .navLinks {
+    display: none;
+  }
+  #hidden {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 252, 237, 0.9);
+    z-index: 1;
+  }
+  .navLink {
+    color: black;
+    font-weight: 900;
+    font-size: 8vw;
+    border:none;
+  }
 }
