@@ -5,7 +5,6 @@ import { RiMenu5Fill } from "react-icons/ri";
 // import { FaTimes } from "react-icons/fa";
 
 const NavBar = () => {
-
   const [showHamburger, setShowHamburger] = useState(false);
 
   const handleClick = () => setShowHamburger(!showHamburger);
@@ -14,8 +13,10 @@ const NavBar = () => {
     <>
       <nav className="navBar">
         <img src="./bird-logo.jpg" alt="bird logo" className="logoNav" />
-        <button onClick={() => setShowHamburger(!showHamburger)}><RiMenu5Fill/></button>
-        <ul className="navLinks" id={showHamburger ? 'hidden' : ""}>
+        <button onClick={() => setShowHamburger(!showHamburger)}>
+          <RiMenu5Fill />
+        </button>
+        <ul className="navLinks" id={showHamburger ? "hidden" : ""}>
           <li className="navItem">
             <Link to="/" className="navLink" onClick={handleClick}>
               Home
@@ -32,26 +33,30 @@ const NavBar = () => {
             </Link>
           </li>
           {/* <li className="navItem"> */}
-            {/* <Link to="/particles" className="navLink" onClick={handleClick}> */}
-              {/* Particles */}
-            {/* </Link> */}
+          {/* <Link to="/particles" className="navLink" onClick={handleClick}> */}
+          {/* Particles */}
+          {/* </Link> */}
           {/* </li> */}
           {/* <li className="navItem"> */}
-            {/* <Link to="/neon" className="navLink" onClick={handleClick}> */}
-              {/* Neon */}
-            {/* </Link> */}
+          {/* <Link to="/neon" className="navLink" onClick={handleClick}> */}
+          {/* Neon */}
+          {/* </Link> */}
           {/* </li> */}
           <li className="navItem">
             <a
               href="https://leontinec.github.io/weather-app/"
               className="navLink"
-              onClick={handleClick}>
+              onClick={handleClick}
+            >
               Weather
             </a>
           </li>
           <li className="navItem">
-            <a href="https://leontinec.github.io/webshop/" className="navLink"
-            onClick={handleClick}>
+            <a
+              href="https://leontinec.github.io/webshop/"
+              className="navLink"
+              onClick={handleClick}
+            >
               Webshop
             </a>
           </li>
