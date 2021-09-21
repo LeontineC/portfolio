@@ -32,11 +32,11 @@ const NavBar = () => {
               Get in Touch
             </Link>
           </li>
-          {/* <li className="navItem"> */}
-          {/* <Link to="/particles" className="navLink" onClick={handleClick}> */}
-          {/* Particles */}
-          {/* </Link> */}
-          {/* </li> */}
+          <li className="navItem">
+          <Link to="/particles" className="navLink" onClick={handleClick}>
+          Particles
+          </Link>
+          </li>
           {/* <li className="navItem"> */}
           {/* <Link to="/neon" className="navLink" onClick={handleClick}> */}
           {/* Neon */}
